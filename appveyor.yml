@@ -1,4 +1,4 @@
-os: test
+os: Previous Visual Studio 2015
 version: 1.0.{build}
 configuration: Release
 environment:
