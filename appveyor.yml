@@ -5,8 +5,8 @@ configuration: Release
 environment:
   AutoParameterizationWebConfigConnectionStrings: False
 
-install:
-- set PATH=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;%PATH%
+#install:
+#- set PATH=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow;%PATH%
 
 before_build:
 - cmd: appveyor-retry nuget restore
