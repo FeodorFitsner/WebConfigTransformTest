@@ -3,8 +3,7 @@ configuration: Release
 environment:
   AutoParameterizationWebConfigConnectionStrings: False
 before_build:
-- cmd: nuget restore
+- cmd: appveyor-retry nuget restore
 build:
   publish_wap: true
   verbosity: minimal
-test: off
