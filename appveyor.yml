@@ -1,5 +1,5 @@
 #os: Previous Visual Studio 2015
-os: test-vs2015-hyperv
+#os: test-vs2015-hyperv
 version: 1.0.{build}
 configuration: Release
 environment:
